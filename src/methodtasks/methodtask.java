@@ -1,6 +1,7 @@
 package methodtasks;
 
 public class methodtask {
+	//task 1
 	static int maxofthree(int a, int b, int c) {
 		if(a>b) {
 			return a;
@@ -12,15 +13,18 @@ public class methodtask {
 			return c;
 		}
 	}
+	//task 2
 	static int cube(int a) {
 		return a*a*a;
 	}
+	//task 3
 	static String greet(String name) {
 		return name;
 	}
 	static String greet() {
 		return "no title";
 	}
+	//task 4
 	static int recursivemethod(int n) {
 		return n*((n+1))/2;
 	}
